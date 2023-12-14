@@ -1,0 +1,349 @@
+
+<style>
+
+/*Importing a new font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Varela+Round&display=swap');
+
+
+/*  Make various header elements a different color*/
+
+.clearfix-links, #header_container .links a, #header_container .topBarLink a, #header_container .links .topBarLink, #header_container .links .topBarLink a {
+color: #10abbc !important;
+}
+
+/*Site title*/
+.branding-search #header_branding .site_title {
+color: #10abbc !important;
+}
+
+
+/*Hamburger menu*/
+@media (max-width: 1024px) {
+.cs-mobile-menu-open {
+color: #10abbc !important;
+}
+}
+
+/*Header background*/
+#header {
+background: white !important;
+}
+
+/*Nav bar links*/
+@media (min-width: 1025px) {
+
+body.cco_body #tabContentMain .co_menu_item span.parent a{
+color: #10abbc;
+}
+}
+
+body.cco_body #header.on-scroll #tabContentMain .co_menu_item span.parent a {
+color: #10abbc;
+text-shadow: 0px 0px 0px !important;
+}
+
+/*Nav bar borders*/
+
+body.cco_body #tabContentMain .co_menu_item.donate_link span.parent a {
+border-color: #9480b6 !important;
+}
+
+#tabContentMain .co_menu_item.multi_level:before {
+    top: 70px;
+    content: " ";
+    border-bottom: 8px solid #10abbc;
+}
+
+body.cco_body #tabContentMain .co_menu_item.multi_level .co_submenu_container {
+    top: 0;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #10abbc;
+}
+
+body.cco_body #tabContentMain .co_menu_item.selected a.parent:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background: #10abbc;
+}
+
+
+/*  Take off overlay off hero section, put in new picture */
+
+.hp-table .hp-row-first .promo_slider .slider .slides .slide_wrapper a, .hp-table .hp-row-first .promo_slider .slider .slides .slide_wrapper img {
+background-color: transparent !important;
+}
+
+.hp-table .hp-row-first .promo_slider .slider .slides .slide_wrapper{
+ color: #000000 !important;
+content: " ";
+    width: 100%;
+    height: 100%;
+	background-image: url("https://w2.chabad.org/media/images/1169/faOE11696313.jpg") !important;
+	background-size: cover;
+	background-position: top center;
+	background-color: transparent !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 100 !important;
+}
+
+/*  Change appearance of main title*/
+
+.hp-table .hp-row-first .promo_slider .slider .cycle-caption > p > span > big {
+font-weight: 900;
+-webkit-text-stroke: 1px white;
+   color: #10abbc;
+   text-shadow:
+       3px 3px 0 #fff,
+     -1px -1px 0 #fff,  
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+       1px 1px 0 #fff;
+}
+
+/* Change color of hero button on normal and hover*/
+
+.hp-table .hp-row .promo_slider .slider .cycle-caption .readMore {
+    border-color: #7d61a7 !important;
+	background: #7d61a7 !important;
+	color: white !important;
+}
+.hp-row .message .wrapper .widget_content .readMore:hover, .hp-table .hp-row .promo_slider .slider .cycle-caption .readMore:hover {
+    border-color: #7d61a7 !important;
+	background-color: white!important;
+	color: #7d61a7  !important;
+}
+
+/* Change color of all buttons on normal and hover*/
+
+.hp-row .message .wrapper .widget_content .readMore:hover {
+    border-color: #7d61a7 !important;
+    color: #ffffff !important;
+	background-color: #7d61a7 !important;
+}
+
+
+.hp-row .message .wrapper .widget_content .readMore {
+    border-color: #7d61a7 !important;
+    color: #7d61a7 !important;
+
+}
+.hp_content_wrapper .readMore:hover {
+background: #10abbc !important;
+color: white !important;
+}
+
+
+/*Change various things to new color*/
+
+#BodyContainer .no-hero-image #co_content_container .master-content-wrapper.master-content-wrapper .article-header .article-header__title, body:not(.home) .cs-mobile-menu-open, .hp_content_wrapper [class*=widget-].candlelighting .candlelighting_content .times_wrapper .bold.large, [class^=widget-].candlelighting a, .hp_content_wrapper [class^=widget-].parsha .widget_content .title span, .hp_content_wrapper .readMore {
+color: #10abbc !important;
+}
+.hp_content_wrapper .readMore{
+border-color: #10abbc !important;
+}
+
+
+/*Change color and font of most headers*/
+
+.branding-search #header_branding .site_title, .hp-table .hp-row-first .promo_slider .slider .cycle-caption big, .chabad_updates .widget_header.widget_header h5, [class*=widget-] .widget_header.widget_header h5, .header-title {
+    color: #f18950;
+font-family: Quicksand, sans-serif; 
+font-weight: 600;
+}
+
+
+/*Take off filter from icons*/
+
+.widget_content .item .icon img {
+filter: none !important;
+}
+
+
+/*Customize subscribe section*/
+
+.hp_subscribe .wrapper .widget_header h5 {
+color: white !important;
+}
+
+.hp_subscribe .wrapper #formContainer fieldset input[type=submit]:hover {
+background:  #9480b6 !important; 
+}
+
+.hp_subscribe .wrapper #formContainer fieldset input[type=submit] {
+border-color: #9480b6 !important; 
+}
+
+
+
+/*Customize footer*/
+
+.footer-title {
+color: #f18950 !important;
+}
+
+#footer .footer_text .footer3 {
+color: white !important;
+}
+
+#footer  {
+background-color: #9480b6 !important;
+
+
+.home .cs-f-social-icons a {
+color: white !important;
+}
+
+#footer .footer_text a, .footer_inner_container {
+    color: #0000;
+}
+
+item span.parent a, body #header.on-scroll #tabContentMain .co_menu_item.arrow .co_submenu_container a.item, body #header.on-scroll #tabContentMain .co_menu_item.arrow .co_submenu_container a.item span, body #header.on-scroll .cco_body #tabContentMain .donate_link, body #header.on-scroll body #tabContentMain .co_menu_item span.parent, body #header.on-scroll body #tabContentMain .co_menu_item span.parent a, body #header.on-scroll body #tabContentMain .co_menu_item.hover span.parent, body #header.on-scroll body #tabContentMain .co_menu_item.hover span.parent a, body #header.on-scroll body.cco_body #tabContentMain .co_menu_item span.parent, body #header.on-scroll body.cco_body #tabContentMain .co_menu_item span.parent a, body #header.on-scroll body.cco_body #tabContentMain .co_menu_item.hover span.parent, body #header.on-scroll body.cco_body #tabContentMain .co_menu_item.hover span.parent a, body #header.on-scroll body.cco_body #tabContentMain .co_submenu_container .co_column a, body.cco_body #header.on-scroll #tabContentMain .co_menu_item span.parent, body.cco_body #header.on-scroll #tabContentMain .co_menu_item span.parent a, body.cco_body #header.on-scroll #tabContentMain .co_menu_item.arrow .co_submenu_container a.item, body.cco_body #header.on-scroll #tabContentMain .co_menu_item.arrow .co_submenu_container a.item span, body.cco_body #header.on-scroll #tabContentMain .co_menu_item.hover span.parent, body.cco_body #header.on-scroll #tabContentMain .co_menu_item.hover span.parent a, body.cco_body #header.on-scroll #tabContentMain .co_submenu_container .co_column a, body.cco_body #header.on-scroll #tabContentMain .donate_link, body.cco_body.sites-article #tabContentMain .co_menu_item span.parent, body.cco_body.sites-article #tabContentMain .co_menu_item span.parent a, body.cco_body.sites-article #tabContentMain .co_menu_item.arrow .co_submenu_container a.item, body.cco_body.sites-article #tabContentMain .co_menu_item.arrow .co_submenu_container a.item span, body.cco_body.sites-article #tabContentMain .co_menu_item.hover span.parent, body.cco_body.sites-article #tabContentMain .co_menu_item.hover span.parent a, body.cco_body.sites-article #tabContentMain .co_submenu_container .co_column a, body.cco_body.sites-article #tabContentMain .donate_link, body.sites-article #tabContentMain .co_menu_item.arrow .co_submenu_container a.item, body.sites-article #tabContentMain .co_menu_item.arrow .co_submenu_container a.item span, body.sites-article .cco_body #tabContentMain .donate_link, body.sites-article body #tabContentMain .co_menu_item span.parent, body.sites-article body #tabContentMain .co_menu_item span.parent a, body.sites-article body #tabContentMain .co_menu_item.hover span.parent, body.sites-article body #tabContentMain .co_menu_item.hover span.parent a, body.sites-article body.cco_body #tabContentMain .co_menu_item span.parent, body.sites-article body.cco_body #tabContentMain .co_menu_item span.parent a, body.sites-article body.cco_body #tabContentMain .co_menu_item.hover span.parent, body.sites-article body.cco_body #tabContentMain .co_menu_item.hover span.parent a, body.sites-article body.cco_body #tabContentMain .co_submenu_container .co_column a {
+color: #10abbc !important;
+}
+
+
+
+    /*Makes custom Learning and Inspiration section mobile friendly */
+
+    @media only screen and (max-device-width: 480px) {
+.site-nav-wrapper {
+background: #10abbc !important;
+}
+
+        
+
+.slide_wrapper img {
+            background-size: contain !important;
+        }
+
+        .hp-row {
+            padding: 30px 10px;
+        }
+
+        #BodyContainer>div>div.g960>div>div.no_margin.g960.no_margin>div>div:nth-child(2)>div>div>div>div.header-title {
+            margin: 0px;
+             !important;
+        }
+
+    }
+
+<link rel="icon" type="image/png" href="https://w2.chabad.org/media/images/1124/Hkma11246200.png">
+
+<!--<style>
+    @media only screen and (min-width: 600px) {
+
+        .chabad_updates .widget_header.widget_header h5,
+        [class*=widget-] .widget_header.widget_header h5 {
+            width: 775px;
+            padding-left: 23%;
+        }
+    }
+
+</style>
+<style>
+    .slide_wrapper {
+        background-color: #D3D3D3 !important;
+    }
+
+    #BodyContainer #co_content_container>.clearfix>.g960:not(.categorized) {
+        background-color: #D3D3D3 !important;
+    }
+
+    .message .wrapper .widget_content.message_format div {
+        max-width: 600px !important;
+    }
+
+</style>
+
+<style type="text/css">-->
+
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+document.getElementsByClassName("home_link")[0].innerHTML = "Our Affiliate Organisations";
+
+document.getElementsByClassName("about_link")[0].innerHTML = "Hamerkaz Shelanu".link('https://www.hamerkazshelanu.com.au'); 
+
+document.getElementsByClassName("contact_link")[0].innerHTML = "Kateeny".link('https://www.kateeny.org.au'); 
+
+});
+</script>
+
+
+
+<style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+}</style>
+
+
+
+
